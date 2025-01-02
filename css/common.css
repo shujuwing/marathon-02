@@ -1,0 +1,107 @@
+/* Font-Family */
+/* playfair display */
+
+/* font-family: "Playfair Display", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* poppins */
+
+/* "Poppins", serif */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* "Open Sans", sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+/* Colors */
+:root{
+    --kom_green : #219653;
+    --beshi_green: #2E6434 ;
+    --form_bg: #F8F8F8;
+    --tia: #A2CB45;
+    
+  }
+  /* Colors */
+  
+  /* All Selector */
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  /* All Selector */
+  
+  /* body */
+  body{
+      font-family: sans-serif;
+  }
+  /* body */
+  
+  /* Container */
+  .container{
+      max-width: 85rem;
+      width: 95%;
+      margin-inline: auto;
+  }
+  /* Container */
+  
+  .btn_primary{
+    background-color: var(--tia);
+    padding: 12px  16px ;
+    color: #000000;
+    border: none;
+    border-radius: 14px;
+  }
+
+.btn_green{
+    background-color: var(--beshi_green);
+    padding: 12px  16px ;
+    color: #ffffffff;
+    border: none;
+    border-radius: 14px;
+    width: 352px;
+}
+
+.section-title{
+    font-size: 40px;
+    font-family: "poppins"serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-title{
+    font-size: 48px;
+    font-family: "poppins"serif;
+    font-weight: 600;
+}
+
+.section-pg{
+    font-size: 18px;
+    font-family: "poppins"serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-pg{
+    font-size: 20px;
+    font-family: "poppins"serif;
+    font-weight: 400;
+    color: #667085;
+}
+
+.btn_kom{
+    background-color: var(--kom_green);
+    padding: 12px  16px ;
+    color: #ffffffff;
+    border: none;
+    border-radius: 8px;
+    /* width: 352px; */
+}
+
+::placeholder {
+    text-align: start;
+    
+}
